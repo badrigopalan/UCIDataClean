@@ -1,4 +1,5 @@
 Experiment design and background:
+
 This sample is based on data collected from the study titled 
 "Human Activity Recognition Using Smartphones Data Set" with the following reference
 link: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
