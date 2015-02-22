@@ -1,4 +1,5 @@
 The R script called run_analysis.R does the following: 
+
 1. Merges the training and the test sets to create one data set.
    For the training data, 
    The subject ids were read from the file subject_train.txt.
