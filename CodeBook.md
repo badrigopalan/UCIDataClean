@@ -37,22 +37,22 @@ Processed data:
   All 561 features have again been retained.
 - Tidy data set 3: Only the mean and standard deviation items in the data set have been retained.
   This includes the mean and std deviation for the following measurements:
-  * tBodyAcc-X, Y, Z
-  * tGravityAcc-X, Y, Z
-  * tBodyAccJerk-X, Y, Z
-  * tBodyGyro-X, Y, Z
-  * tBodyGyroJerk-X, Y, Z
-  * tBodyAccMag
-  * tGravityAccMag
-  * tBodyAccJerkMag
-  * tBodyGyroMag
-  * tBodyGyroJerkMag
-  * fBodyAcc-X, Y, Z
-  * fBodyAccJerk-X, Y, Z
-  * fBodyGyro-X, Y, Z
-  * fBodyAccMag
-  * fBodyBodyAccJerkMag
-  * fBodyBodyGyroMag
-  * fBodyBodyGyroJerkMag
+  * tBodyAcc-X, Y, Z in m/s^2
+  * tGravityAcc-X, Y, Z in m/s^2
+  * tBodyAccJerk-X, Y, Z in m/s^3
+  * tBodyGyro-X, Y, Z in rad/s^2
+  * tBodyGyroJerk-X, Y, Z in rad/s^3
+  * tBodyAccMag in m/s^2
+  * tGravityAccMag in m/s^2
+  * tBodyAccJerkMag in m/s^3
+  * tBodyGyroMag in rad/s^2
+  * tBodyGyroJerkMag in rad/s^3
+  * fBodyAcc-X, Y, Z in m/s^2
+  * fBodyAccJerk-X, Y, Z in m/s^3
+  * fBodyGyro-X, Y, Z in rad/s^2
+  * fBodyAccMag in m/s^2
+  * fBodyBodyAccJerkMag in m/s^3
+  * fBodyBodyGyroMag in rad/s^2
+  * fBodyBodyGyroJerkMag in rad/s^3
 - The activity ids were processed and replaced by descriptive activity names in both data sets.
 - The measurements were labeled with descriptive label names in both data sets.
