@@ -24,7 +24,9 @@ Raw data:
 
 Processed data:
 - A merged data set was created from the training and the test data set. This formed the basis
-  for both the tidy data set 1 and tidy data set 2.
+  for the tidy data sets 1, 2 and 3. Tidy data set 1 provides the full details. Tidy data set 2
+  provides averages over each subject and activity. Tidy data set3 provides a the mean and
+  std deviations of each measurement.
 - Tidy data set 1: All the 561 features of the raw data set were maintained. This data set
   may be used for detailed analysis on all the factors. The rationale for not removing the
   features is it is not clear which may be needed for detailed analysis. It is possible
@@ -33,5 +35,24 @@ Processed data:
 - Tidy data set 2: The averages of each activity and subject are calculated. This data set
   is intended to provide a high level overview of the activities by each subject. 
   All 561 features have again been retained.
+- Tidy data set 3: Only the mean and standard deviation items in the data set have been retained.
+  This includes the mean and std deviation for the following measurements:
+  * tBodyAcc-X, Y, Z
+  * tGravityAcc-X, Y, Z
+  * tBodyAccJerk-X, Y, Z
+  * tBodyGyro-X, Y, Z
+  * tBodyGyroJerk-X, Y, Z
+  * tBodyAccMag
+  * tGravityAccMag
+  * tBodyAccJerkMag
+  * tBodyGyroMag
+  * tBodyGyroJerkMag
+  * fBodyAcc-X, Y, Z
+  * fBodyAccJerk-X, Y, Z
+  * fBodyGyro-X, Y, Z
+  * fBodyAccMag
+  * fBodyBodyAccJerkMag
+  * fBodyBodyGyroMag
+  * fBodyBodyGyroJerkMag
 - The activity ids were processed and replaced by descriptive activity names in both data sets.
 - The measurements were labeled with descriptive label names in both data sets.
